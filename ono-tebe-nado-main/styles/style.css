@@ -1,0 +1,696 @@
+  .header_menu {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+
+    align-items: center;
+    justify-content: space-between;
+    width: 1052px;
+    height: 105px;
+    margin: 92px 24px 96px;
+  }
+
+  .menu_list {
+    justify-self: start;
+    align-self: baseline;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: circle;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    padding-right: 36px;
+    padding-left: 26.52px;
+    color: #000000;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+
+  .menu_link_home {
+    display: block;
+  }
+
+  .menu_link_home :hover{
+    display: block;
+    text-decoration: none;
+  }
+
+  .menu_link_lots {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+
+  .menu_link_lots :hover {
+    text-decoration: none;
+  }
+
+  .menu_link_about {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+
+  .menu_link_about :hover {
+    text-decoration: none;
+  }
+
+  .address {
+    justify-self: end;
+    display: flex;
+    flex-direction: column;
+    width: 240.52px;
+    height: 98px;
+    margin-left: 184px;
+    margin-right: 25.48px;
+    border: 1px 0px 0px 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.3px;
+    text-align: left;
+    text-underline-offset: 4px;
+  }
+
+  .logo {
+    width: 148px;
+    height: 105px;
+    left: calc(50% - 148px/2 + 2px);
+  }
+
+  .section_cover {
+    display: grid;
+    grid-template-columns: max-content;
+    width: 1100px;
+    height: 757px;
+    top: 293px;
+    gap: 0px;
+  }
+
+  .img_cover {
+    position: absolute;
+    display: flex;
+    width: 1100px;
+    height: 757px;
+    top: 293px;
+    gap: 0px;
+  }
+
+  .cover {
+    position: relative;
+    background: url(./images/cover.jpg);
+    width: 1100px;
+    height: 757px;
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-origin: border-box;
+    background-position: center top;    
+    background-color: rgba(0 0 0 / 0.5);
+    filter: brightness(40%);
+  }
+
+/*  .overlay { 
+    position: absolute;
+    width: 1100px;
+    height: 757px;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  } */
+
+  .title_text {
+    position: absolute;
+    font-family: Raleway;
+    font-size: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 115px;
+    color: #ffffff;
+    z-index: 2;
+  }
+
+  .text_left {
+    position: absolute;
+    width: 316px;
+    height: 115px;
+    margin-left: 50px;
+    margin-top: 165px;
+    opacity: 0px;
+    text-align: left;
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 115px;
+    text-transform: uppercase;
+  }
+
+  .o_no {
+    letter-spacing: 0.3em;
+  }
+
+  .no {
+    letter-spacing: 0.6em;
+  }
+
+  .text_center {
+    position: absolute;
+    width: 369px;
+    height: 100px;
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 336px;
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    text-transform: uppercase;
+  }
+
+  .te {
+    letter-spacing: 0.3em;
+  }
+
+  .be {
+    letter-spacing: 0.6em;
+  }
+
+  .text_right {
+    position: absolute;
+    width: 417px;
+    height: 100px;
+    text-align: right;
+    margin-top: 420px;
+    margin-left: 633px;
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    text-transform: uppercase;
+  }
+
+  .n {
+    letter-spacing: 0.6em;
+  }
+
+  .ad {
+    letter-spacing: 0.3em;
+  }
+
+  .o {
+    letter-spacing: 0em;
+  }
+
+  .subline {
+    position: absolute;
+    width: 637px;
+    height: 28px;
+    margin: 667px 50px 62px 78px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  .v {
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1.1em;
+    text-align: left;    
+  }
+
+  .whitespace {
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.8em;
+    text-align: left;
+  }
+
+  .button {
+    width: 256px;
+    height: 51px;
+    margin-top: 655px;
+    margin-left: 794px;
+    margin-right: 50px;
+    border: 1px solid #ffffff;
+    position: absolute;
+    padding: 12px 32px 11px 31px;
+    font-family: Raleway;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 25.83px;
+    text-transform: uppercase;
+    text-align: center;
+
+  }
+
+  .section_lots {
+    width: 1052px;
+    height: 692px;
+    margin-top: 179px;
+    margin-left: 24px;
+  }
+
+  .lots_content {
+    display: flex;
+    margin-top: 27px;
+  }
+
+  .title_lots {
+    position: relative;
+    left: 40px;
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  .lot_card_one {
+    position: relative;
+    display: flex;
+    width: 334px;
+    height: 563px;
+  }
+
+  .lot_img_one {
+    position: absolute;
+    background-size: cover;
+    width: 334px;
+    height: 563px;
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url(./images/card-lot-01.jpg); 
+    z-index: -1;
+  }
+
+  .text_card_one {
+    position: absolute;
+    width: 334px;
+    height: 563px;
+    margin-left: 0px;
+    background-color: rgba(0 0 0 / 0.5);
+    color: #ffffff;
+    font-family: Raleway;
+    font-style: normal;
+    text-align: left;
+  }
+
+  .lot_title_one {
+    position: absolute;
+    min-width: 254px;
+    min-height: 82px;
+    margin-top: 51px;
+    padding-left: 40px;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: underline;
+    line-height: 120%;
+    text-underline-offset: 3.5px;
+    text-decoration-thickness: 1px; 
+  }
+
+  .lot_text_one{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+    min-width: 254px;
+    max-width: 294px;
+    height: 144px;
+    padding-top: 371px;
+    padding-left: 40px;
+    line-height: 120%;
+  }
+
+  .lot_card_two {
+    position: relative;
+    display: flex;
+    width: 334px;
+    height: 563px;
+    margin-left: 25px;
+  }
+
+  .lot_img_two {
+    position: relative;
+    background-size: cover;
+    width: 334px;
+    height: 563px;
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url(./images/card-lot-02.jpg); 
+    z-index: -1;
+  }
+
+  .text_card_two {
+    position: absolute;
+    width: 334px;
+    height: 563px;
+    margin-left: 0px;
+    background-color: rgba(0 0 0 / 0.5);
+    color: #ffffff;
+    font-family: Raleway;
+    font-style: normal;
+    text-align: left;
+  }
+
+  .lot_title_two {
+    position: absolute;
+    width: 254px;
+    min-width: 294px;
+    min-height: 110px;
+    margin-top: 51px;
+    padding-left: 40px;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 3.5px;
+    line-height: 120%;
+    text-decoration-thickness: 1px;
+  }
+
+  .lot_text_two {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+    min-width: 254px;
+    max-width: 294px;
+    height: 144px;
+    padding-top: 155px;
+    padding-left: 40px;
+    line-height: 120%; 
+  }
+
+  .lot_card_three {
+    position: relative;
+    display: flex;
+    width: 334px;
+    height: 563px;
+    margin-left: 25px;
+  }
+
+  .lot_img_three {
+    position: absolute;
+    background-size: cover;
+    width: 334px;
+    height: 563px;
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url(./images/card-lot-03.jpg); 
+    z-index: -1;
+  }
+
+  .text_card_three {
+    position: absolute;
+    width: 334px;
+    height: 563px;
+    background-color: rgba(0 0 0 / 0.5);
+    font-family: Raleway;
+    font-style: normal;
+    color: #ffffff; 
+    text-align: left;
+  }
+  
+  .lot_title_three {
+    position: absolute;
+    width: 254px;
+    min-width: 284px;
+    min-height: 110px;
+    margin-top: 51px;
+    padding-left: 40px;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 3.5px;
+    line-height: 120%;
+    text-decoration-thickness: 1px;
+  }
+
+  .lot_text_three {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+    min-width: 254px;
+    max-width: 294px;
+    height: 144px;
+    padding-top: 251px;
+    padding-left: 40px;
+    line-height: 120%; 
+  }
+
+  .more {
+    position: relative;
+    min-width: 192px;
+    height: 25px;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.48px;
+    color: #000000;
+    text-align: left;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    line-height: 120%;
+    text-decoration-thickness: 1px;
+  }
+
+  .section_about {
+    display: flex;
+    width: 1052px;
+    height: 595px;
+    margin-top: 146px;
+    margin-left: 24px;
+  }
+
+  .circle_logo {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    margin-left: 47px;
+    margin-top: 35px;
+    background: #000000;
+    border-radius: 100%;
+  }
+
+  .logo_about {
+    position: absolute;
+    width: 148px;
+    height: 114px;
+    left: calc(50% - 148px/2 + 0.48px);
+    top: calc(50% - 114px/2 + 1px);
+  }
+
+/*  .text_about {
+    position: relative;
+    width: 693px;
+    height: 449px;
+    margin-top: 133px;
+    margin-left: 72px;
+    font-family: 'Raleway';
+    font-style: normal;
+    color: #000000;
+    padding: 3px 0px 0px 0px;  
+  } */
+
+  .title_about {
+    position: absolute;
+    min-width: 291px;
+    height: 47px;
+    margin-top: 133px;
+    margin-left: 359px;
+    font-family: 'Raleway';
+    font-style: normal;
+    color: #000000;
+    padding: 3px 0px 0px 0px; 
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-transform: uppercase;
+    text-align: left;
+  }
+
+  .about_text_one {
+    position: absolute;
+    width: 688px;
+    height: 120px;
+    margin-top: 283px;
+    margin-left: 359px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: left;
+    color: #000000;
+  }
+
+  .about_sobranie {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+  }
+
+  .about_our {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+
+  .about_byli {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-align: left;       
+  }
+
+  .about_dnevnik {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;       
+  }
+
+  .about_text_two {
+    position: absolute;
+    width: 693px;
+    height: 168px;
+    margin-top: 427px;
+    margin-left: 359px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #000000;
+    text-align: left;
+  }
+
+  .about_oni {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: left;
+  }
+
+  .about_neud {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+  }
+
+  .footer {
+    width: 1000px;
+    height: 98px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 180px 50px 88px;
+    align-items: center;
+  }
+
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    width: 240.52px;
+    height: 98px;
+    border: 1px 0px 0px 0px;       
+    justify-self: start;
+    order: -1;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.3px;
+    text-align: left;
+    font-style: normal;
+    text-underline-offset: 4px;
+  }
+
+  .footer_list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 33px;
+    list-style-type: none;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px;
+    justify-self: center;
+    align-self: flex-start;
+    text-underline-offset: 4px;
+  }
+  
+  .footer_link_home :hover {
+    text-decoration: none;
+  }
+
+  .footer_link_lots :hover {
+    display: block;
+    text-decoration: none;
+  }
+
+  .footer_link_about :hover {
+    display: block;
+    text-decoration: none;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: row;
+    width: Hug (240px)px;
+    height: Hug (48px)px;
+    top: 2843px;
+    left: 810px;
+    gap: 48px;
+    justify-self: end;
+    align-self: baseline;
+  }
+
+  .soc {
+    width: 48px;
+    height: 48px;
+    border: 1px 0px 0px 0px;
+  }
+  
