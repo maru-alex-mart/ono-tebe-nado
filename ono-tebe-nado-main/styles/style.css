@@ -1,4 +1,4 @@
-  .header_menu {
+  .header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
 
@@ -34,7 +34,7 @@
     display: block;
   }
 
-  .menu_link_home :hover{
+  .menu_link_home :hover {
     display: block;
     text-decoration: none;
   }
@@ -229,7 +229,7 @@
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 1.1em;
-    text-align: left;    
+    text-align: left;
   }
 
   .whitespace {
@@ -325,10 +325,10 @@
     text-decoration: underline;
     line-height: 120%;
     text-underline-offset: 3.5px;
-    text-decoration-thickness: 1px; 
+    text-decoration-thickness: 1px;
   }
 
-  .lot_text_one{
+  .lot_text_one {
     position: absolute;
     font-size: 20px;
     font-weight: 400;
@@ -396,7 +396,7 @@
     height: 144px;
     padding-top: 155px;
     padding-left: 40px;
-    line-height: 120%; 
+    line-height: 120%;
   }
 
   .lot_card_three {
@@ -454,7 +454,7 @@
     height: 144px;
     padding-top: 251px;
     padding-left: 40px;
-    line-height: 120%; 
+    line-height: 120%;
   }
 
   .more {
@@ -471,7 +471,6 @@
     text-align: left;
     text-decoration: underline;
     text-underline-offset: 5px;
-    line-height: 120%;
     text-decoration-thickness: 1px;
   }
 
@@ -542,9 +541,6 @@
     letter-spacing: 0.01em;
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 120%;
     text-align: left;
     color: #000000;
   }
@@ -572,7 +568,7 @@
     font-weight: 400;
     line-height: 24px;
     letter-spacing: -0.01em;
-    text-align: left;       
+    text-align: left;
   }
 
   .about_dnevnik {
@@ -581,7 +577,7 @@
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.03em;
-    text-align: left;       
+    text-align: left;
   }
 
   .about_text_two {
@@ -595,9 +591,6 @@
     line-height: 120%;
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 120%;
     color: #000000;
     text-align: left;
   }
