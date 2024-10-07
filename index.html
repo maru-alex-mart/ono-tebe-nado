@@ -5,105 +5,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href="./fonts/fonts.css">
-    <link rel="stylesheet" href="./styles/global.css"/>
     <link rel="stylesheet" href="./styles/style.css"/>
+    <link rel="stylesheet" href="./styles/global.css"/>
+    <link rel="stylesheet" href="./fonts/fonts.css">
   </head>
   <body>
     <header class="header">
       <nav class="menu">
         <ul class="menu_list">
           <li class="menu_link_home">
-            <a href="#home">главная</a>
+           <a href="#home">главная</a>
           </li>
           <li>
-            <a href="#lots" class="menu_link_lots">посмотреть лоты</a>
+           <a href="#lots" class="menu_link_lots">посмотреть лоты</a>
           </li>
           <li>
-            <a href="#about" class="menu_link_about">об аукционе</a>
+           <a href="#about" class="menu_link_about">об аукционе</a>
           </li>
         </ul>
       </nav>
-      <a class="logo">
-        <img
+      <a href="#home">
+        <img 
+         class="logo"
          src="./images/logo-black.svg"
          alt="оно тебе надо"
          />
         </a>
-         <article class="address">
+         <address class="address">
            <a href="#tel:+99995555555" class="tel">+9 999 555 5555</a>
            <a href="#mailto:info@sobaka.ge" class="mail">info@sobaka.ge</a>
            <a class="text_adress">наб. Принсенграхт 263-<br>265, Амстердам</a>
-         </article>
+         </address>
     </header>
     <main> 
-      <ul class="section_cover" id="home">
+      <section class="section_cover" id="home">
+        <div class="img_cover">
           <img class="cover"
           src="./images/cover.jpg"
           alt="картина лилии маслом"
           />
+          <!-- <div class="cover"></div> -->
           <div class="overlay"></div>
+        </div>
         <h1 class="title_text"> 
            <span class="text_left"><span class="o_no">о</span><span class="no">но</span></span>
            <span class="text_center"><span class="te">те</span><span class="be">бе</span></span>
            <span class="text_right"><span class="n">н</span><span class="ad">ад</span><span class="o">о</span></span>
         </h1>
            <aside class="subline">аукцион<span class="whitespace"> </span>вещей,<span class="whitespace"> </span><span class="v">в</span>которые<span class="whitespace"> </span>никто<span class="whitespace"> </span>не<span class="whitespace"> </span>верил</aside>
-           <aside class="button">сделать ставку</aside>
+        <aside class="button">сделать ставку</aside>
       </section>
       <section class="section_lots" id="lots">
         <h2 class="title_lots">Лоты</h2>
-        <ul class="lot_cards">
-          <li class="card">
-             <a class="lot_card_one">
-                <img class="lot_img_one"
-                  src="./images/card-lot-01.jpg"
-                  alt="Кадр из фильма Пола Томаса Андерсона"
-                  >  
-                <div class="text_card_one">
-                <h3 class="lot_title_one">
+        <div class="lots_content">
+          <article class="lot_card_one">
+            <img class="lot_img_one"
+            src="./images/card-lot-01.jpg"
+            alt="Кадр из фильма Пола Томаса Андерсона"
+            >  
+            <div class="text_card_one">
+              <h3 class="lot_title_one">
                 Фильм режиссёра, который бросил киношколу
-                </h3>
-                <p class="lot_text_one">
+              </h3>
+              <p class="lot_text_one">
                 Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
-                 </p>
-              </div>
-            </a>
-          </li>
-          <li class="card">
-             <a class="lot_card_two">
-                <img class="lot_img_two"
-                src="./images/card-lot-02.jpg"
-                alt="Обложка романа Дж. Джойса"
-                >
-                <div class="text_card_two">
-                <h3 class="lot_title_two">
-                  Книга, где описан один скучный день из жизни рекламного агента
-                </h3>
-                <p class="lot_text_two">
-                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
-                </p>
-              </div>
-            </a>
-          </li>
-          <li class="card">
-            <a class="lot_card_three">
-                <img class="lot_img_three"
-                src="./images/card-lot-03.jpg"
-                alt="Ранняя картина Кандинского"
-                >
-                <div class="text_card_three">
-                <h3 class="lot_title_three">
-                  Картина, которую повторит даже 5-летний сын маминой подруги
-                </h3>
-                <p class="lot_text_three">
-                  Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
-                </p>
-                </div>
-              </a>
-          </li>
-        </ul>
+              </p> 
+            </div>
+          </article>
+          <article class="lot_card_two">
+            <img class="lot_img_two"
+            src="./images/card-lot-02.jpg"
+            alt="Обложка романа Дж. Джойса"
+            >
+            <div class="text_card_two">
+            <h3 class="lot_title_two">
+              Книга, где описан один скучный день из жизни рекламного агента
+            </h3>
+            <p class="lot_text_two">
+              Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
+            </p>
+          </div>
+          </article>
+          <article class="lot_card_three">
+            <img class="lot_img_three"
+            src="./images/card-lot-03.jpg"
+            alt="Ранняя картина Кандинского"
+            >
+            <div class="text_card_three">
+            <h3 class="lot_title_three">
+              Картина, которую повторит даже 5-летний сын маминой подруги
+            </h3>
+            <p class="lot_text_three">
+              Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
+            </p>
+            </div>
+          </article>
+        </div>
         <aside class="more">посмотреть больше</aside>
+      </section>
       <section class="section_about" id="about">
         <div class="circle_logo">
           <img class="logo_about"
@@ -111,6 +110,7 @@
           alt="большой логотип на темном фоне"
           >
         </div>
+        <!-- <article class="text_about"></article> -->
           <h2 class="title_about">
             Об аукционе
           </h2>
@@ -124,7 +124,6 @@
     </main>
       <footer class="footer">
         <nav>
-        <a>
           <ul class="footer_list">
             <li>
               <a href="#home" class="footer_link_home">главная</a>    
@@ -136,14 +135,13 @@
               <a href="#about" class="footer_link_about">об аукционе</a>
             </li>
           </ul>
-         </a>
         </nav>
-        <article class="contacts">
+        <address class="contacts">
           <a href="#tel:+99995555555" class="tel">+9 999 555 5555</a>
           <a href="#mailto:info@sobaka.ge" class="mail">info@sobaka.ge</a>
           <a class="text_adress">наб. Принсенграхт 263-<br>265, Амстердам</a>
-        </article>
-      <a class="socials">
+        </address>
+      <section class="socials">
         <img 
          class="soc"
          src="./images/yt.svg"
@@ -159,7 +157,7 @@
          src="./images/pinterest.svg"
          alt="ссылка на pinterest"
          />
-      </a>
+      </section>
       </footer>
   </body>
 </html>
