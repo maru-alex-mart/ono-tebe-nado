@@ -14,16 +14,14 @@
     <header class="header">
       <nav class="menu">
         <ul class="menu_list">
-          <li class="menu_link menu_link_active">
-            <a href="#home">главная</a>
+          <li class="menu_list_item menu_list_item_no_bullit">
+            <a href="#home" class="menu_link menu_link_active">главная</a>
           </li>
-          <li>
-            <a href="#lots" class="menu_link menu_link_active"
-              >посмотреть лоты</a
-            >
+          <li class="menu_list_item">
+            <a href="#lots" class="menu_link">посмотреть лоты</a>
           </li>
-          <li>
-            <a href="#about" class="menu_link menu_link_active">об аукционе</a>
+          <li class="menu_list_item">
+            <a href="#about" class="menu_link">об аукционе</a>
           </li>
         </ul>
       </nav>
@@ -38,9 +36,7 @@
     </header>
     <main>
       <section class="section_cover" id="home">
-        <div class="img_cover">
-          <div class="overlay"></div>
-        </div>
+        <div class="overlay"></div>
         <h1 class="cover_title">
           <span class="text_left"
             ><span class="standart-letter-spacing">о</span
@@ -56,56 +52,54 @@
             ><span class="no-letter-spacing">о</span></span
           >
         </h1>
-        <p class="subline">аукцион вещей, в которые никто не верил</p>
-        <a class="button">сделать ставку</a>
+        <div class="cover_description">
+          <p class="subline">аукцион вещей, в которые никто не верил</p>
+          <a class="button">сделать ставку</a>
+        </div>
       </section>
       <section class="section_lots" id="lots">
         <h2 class="title_lots">Лоты</h2>
         <div class="lots_content">
           <article class="lot_card lot_card_film">
-            <div class="overlay">
-              <div class="text_card">
-                <h3 class="lot_title">
-                  Фильм режиссёра, который бросил киношколу
-                </h3>
-                <p class="lot_text">
-                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-                  ставка, если бы вы не знали, что режиссёр — Пол Томас
-                  Андерсон?
-                </p>
-              </div>
+            <div class="overlay"></div>
+            <div class="text_card">
+              <h3 class="lot_title">
+                Фильм режиссёра, который бросил киношколу
+              </h3>
+              <p class="lot_text">
+                Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+              </p>
             </div>
           </article>
           <article class="lot_card lot_card_book">
-            <div class="overlay">
-              <div class="text_card">
-                <h3 class="lot_title">
-                  Книга, где описан один скучный день из жизни рекламного агента
-                </h3>
-                <p class="lot_text">
-                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и
-                  с переходами на древнеанглийский. В ней одновременно
-                  рассказывается о 16 июня 1904 года и об истории литературы,
-                  начиная с античных времён. И это всё накладывается на
-                  эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
-                  Джеймса Джойса?
-                </p>
-              </div>
+            <div class="overlay"></div>
+            <div class="text_card">
+              <h3 class="lot_title">
+                Книга, где описан один скучный день из жизни рекламного агента
+              </h3>
+              <p class="lot_text">
+                Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
+                переходами на древнеанглийский. В ней одновременно
+                рассказывается о 16 июня 1904 года и об истории литературы,
+                начиная с античных времён. И это всё накладывается на эпическую
+                поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса
+                Джойса?
+              </p>
             </div>
           </article>
           <article class="lot_card lot_card_pic">
-            <div class="overlay">
-              <div class="text_card">
-                <h3 class="lot_title">
-                  Картина, которую повторит даже 5-летний сын маминой подруги
-                </h3>
-                <p class="lot_text">
-                  Ну действительно, там линия, тут кружочек, а здесь и вовсе
-                  что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
-                  котиков... Сколько бы вы на такое поставили, если бы не знали,
-                  что это — одна из революционных работ Кандинского?
-                </p>
-              </div>
+            <div class="overlay"></div>
+            <div class="text_card">
+              <h3 class="lot_title">
+                Картина, которую повторит даже 5-летний сын маминой подруги
+              </h3>
+              <p class="lot_text">
+                Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                котиков... Сколько бы вы на такое поставили, если бы не знали,
+                что это — одна из революционных работ Кандинского?
+              </p>
             </div>
           </article>
         </div>
@@ -164,10 +158,14 @@
       </address>
       <section class="socials">
         <a href="#">
-          <img class="soc" src="./images/yt.svg" alt="ссылка на youtube" />
+          <img class="soc" 
+          src="./images/yt.svg" 
+          alt="ссылка на youtube" />
         </a>
         <a href="#">
-          <img class="soc" src="./images/vk.svg" alt="ссылка на vkontakte" />
+          <img class="soc" 
+          src="./images/vk.svg" 
+          alt="ссылка на vkontakte" />
         </a>
         <a href="#">
           <img
